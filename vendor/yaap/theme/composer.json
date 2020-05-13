@@ -1,0 +1,28 @@
+{
+    "name": "yaap/theme",
+    "description": "Theme support for Laravel 4/5 with assets, theme extends etc.",
+    "keywords": [
+        "laravel",
+        "theme",
+        "layout", 
+        "asset"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Biluk Andrey",
+            "email": "yaapis@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": "5.4.*",
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "YAAP\\Theme": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
